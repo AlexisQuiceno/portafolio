@@ -1,3 +1,7 @@
 /*
 grit, flex, todo lo que modifique el layaud 
 */
+@import './_media-max.scss';
+@media (min-width: 820px){
+    @import './_media-min.scss';
+}
